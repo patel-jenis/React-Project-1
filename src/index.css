@@ -1,0 +1,91 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Jost';
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-menus li a {
+    color: #000;
+    font-weight: 400;
+    transition: all 0.3s linear;
+}
+
+.nav-menus li a:hover {
+    color: #bd7c51;
+}
+
+.nav-social li button:hover i {
+    color: #bd7c51;
+}
+
+.nav-social li button i {
+    transition: all 0.3s linear;
+    font-size: 26px;
+}
+
+.nav-social li button span {
+    font-size: 14px;
+    color: #bd7c51;
+    font-weight: 400;
+}
+
+.nav-social li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bd7c51;
+}
+
+.cart-bedge {
+    font-size: 9px !important;
+    color: #fff !important;
+    right: -14px !important;
+    top: 13px;
+    background-color: #bd7c51 !important;
+}
+
+.main-banner {
+    padding-top: 86px;
+    height: 100vh;
+}
+
+header {
+    background-color: #fff;
+}
+
+.main-sec {
+    width: 100%;
+    background-image: url(../public/images/main-banner.jpeg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main-text h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #636363;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.main-text h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.btn-all {
+        border-radius: 10px;
+    font-size: 14px;
+    padding: 14px 25px;
+    background-color: #bd7c51;
+    color: #fff;
+    border: none;
+}
