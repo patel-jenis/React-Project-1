@@ -1,4 +1,3 @@
-// import logo from '../assets/images/logo.png'
 import HeaderMenus from './HeaderMenus'
 
 const Header = () => {
@@ -29,7 +28,7 @@ const Header = () => {
             <div className="container">
                 <div className='d-flex justify-content-between align-items-center py-3'>
                     <div>
-                        <img src="/public/images/logo.png" alt="logo" />
+                        <img src="/images/logo.png" alt="logo" />
                     </div>
                     <ul className='nav-menus d-flex align-items-center gap-5 m-0'>
                         {
