@@ -47,8 +47,8 @@ const Details = () => {
                 <div className="row gx-5 gy-md-0 gy-4 align-items-center">
                     <div className="col-md-6">
                         <div className="product-img position-relative">
-                            <img src="/public/images/product-2.jpeg" alt="product" className="img-fluid img-1" />
-                            <img src="/public/images/product-1.jpeg" alt="product" className="img-fluid img-2" />
+                            <img src="/images/product-2.jpeg" alt="product" className="img-fluid img-1" />
+                            <img src="/images/product-1.jpeg" alt="product" className="img-fluid img-2" />
                             <span className="sale position-absolute bg-danger">
                                 <span class="badge text-bg-danger">80%</span>
                             </span>
