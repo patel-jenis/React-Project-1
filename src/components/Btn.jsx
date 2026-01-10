@@ -1,7 +1,7 @@
-const Btn = () => {
+const Btn = ({ text }) => {
   return (
     <button className="btn-all">
-        GET MORE
+        {text}
     </button>
   )
 }

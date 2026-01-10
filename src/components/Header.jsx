@@ -30,17 +30,17 @@ const Header = () => {
                     <div>
                         <img src="/images/logo.png" alt="logo" />
                     </div>
-                    <ul className='nav-menus d-flex align-items-center gap-5 m-0'>
+                    <ul className='nav-menus d-xl-flex d-none align-items-center gap-5 m-0'>
                         {
                             elements.map((data) => {
                                 return <HeaderMenus menmenuTitle={data.menuTitle} />
                             })
                         }
                     </ul>
-                    <ul className='nav-social d-flex align-items-center gap-3 m-0'>
+                    <ul className='nav-social d-sm-flex d-none align-items-center gap-3 m-0'>
                         <li>
                             <button className='border-0 bg-transparent'>
-                                <i class="ri-search-line"></i>
+                                <i className="ri-search-line"></i>
                             </button>
                         </li>
                         <li>
@@ -48,8 +48,8 @@ const Header = () => {
                         </li>
                         <li>
                             <button className='border-0 bg-transparent d-flex gap-2 align-items-center'>
-                                <i class="ri-shopping-bag-line position-relative">
-                                    <span class="cart-bedge position-absolute translate-middle badge rounded-pill">
+                                <i className="ri-shopping-bag-line position-relative">
+                                    <span className="cart-bedge position-absolute translate-middle badge rounded-pill">
                                         0
                                     </span>
                                 </i>

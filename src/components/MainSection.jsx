@@ -14,7 +14,7 @@ const MainSection = () => {
                                     <br />
                                     Collection Lookbook
                                 </h1>
-                                <Btn />
+                                <Btn text={"VIEW MORE"} />
                             </div>
                         </div>
                     </div>
