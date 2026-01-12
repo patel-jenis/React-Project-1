@@ -55,6 +55,7 @@ a {
 
 header {
     background-color: #fff;
+    z-index: 9999;
 }
 
 .main-sec {
@@ -156,7 +157,7 @@ header {
     background-color: #f8f8f8;
 }
 
-.product-img img{
+.product-img img {
     max-height: 623.37px;
 }
 
@@ -168,8 +169,14 @@ header {
 
 .product-details h4 {
     font-size: 36px;
-        font-weight: 400;
+    font-weight: 400;
     text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.product-details h4:hover {
+    color: #bd7c51;
 }
 
 .product-details p {
@@ -190,17 +197,17 @@ header {
 
 .product-details h5 span:first-child {
     font-size: 26px !important;
-        color: #000 !important;
+    color: #000 !important;
 }
 
 .product-details h5 span:last-child {
-        font-size: 20px !important;
-        color: #999 !important;
-        font-weight: 400;
-        text-decoration: line-through;
+    font-size: 20px !important;
+    color: #999 !important;
+    font-weight: 400;
+    text-decoration: line-through;
 }
 
-.rating i{
+.rating i {
     color: #ffc600;
 }
 
@@ -211,7 +218,7 @@ header {
     border-radius: 50px;
 }
 
-.sale span{
+.sale span {
     font-weight: 400;
 }
 
@@ -219,10 +226,55 @@ header {
     display: none;
 }
 
-.product-img:hover .img-2{
+.product-img:hover .img-2 {
     display: block;
 }
 
-.product-img:hover .img-1{
+.product-img:hover .img-1 {
     display: none;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.yellow {
+    color: #ffde00;
+}
+
+.blue {
+    color: #4416ed;
+}
+
+.offbanner {
+    background-image: url(../public/images/offbanner.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.extra {
+    padding: 150px 0;
+}
+
+.feature {
+    background-color: #f5f5f5;
+}
+
+.feature-dsc h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.feature-dsc p {
+    color: #868686;
+    line-height: 22px;
+}
+
+.feature-heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
 }

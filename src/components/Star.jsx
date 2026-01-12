@@ -1,6 +1,8 @@
 const Star = ({ isFill }) => {
     return (
-        <span className="rating"><i class={isFill ? "ri-star-s-fill" : "ri-star-s-line"}></i></span>
+        <div>
+            <span className="rating"><i className={isFill ? "ri-star-s-fill" : "ri-star-s-line"}></i></span>
+        </div>
     )
 }
 

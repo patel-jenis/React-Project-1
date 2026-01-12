@@ -1,4 +1,6 @@
 import Btn from "./Btn"
+import Color from "./Color"
+import Description from "./Description"
 import Star from "./Star"
 
 const Details = () => {
@@ -50,22 +52,22 @@ const Details = () => {
                             <img src="/images/product-2.jpeg" alt="product" className="img-fluid img-1" />
                             <img src="/images/product-1.jpeg" alt="product" className="img-fluid img-2" />
                             <span className="sale position-absolute bg-danger">
-                                <span class="badge text-bg-danger">80%</span>
+                                <span className="badge text-bg-danger">80%</span>
                             </span>
-
                         </div>
                     </div>
                     <div className="col-md-6">
                         <div className="product-details">
-                            <span>HTC</span>
-                            <h4>angelica sling large</h4>
-                            <p>HTC Touch - in High Definition. Watch music videos and streaming content in awe-inspiring high definition clarity for a mobile experience you never thought possible. Seductively sl..</p>
-                            <div className="d-flex">
-                                {
-                                    star.map((data) => {
-                                        return <Star isFill={data.isFill} />
-                                    })
-                                }
+                            <Description subTitle="HTC" title="angelica sling large" dsc="HTC Touch - in High Definition. Watch music videos and streaming content in awe-inspiring high definition clarity for a mobile experience you never thought possible. Seductively sl.." />
+                            <div className="d-flex gap-5 align-items-center">
+                                <div className="d-flex">
+                                    {
+                                        star.map((data) => {
+                                            return <Star isFill={data.isFill} />
+                                        })
+                                    }
+                                </div>
+                                <Color />
                             </div>
                             <h5 className="mb-5">
                                 <span>$26.00</span>
