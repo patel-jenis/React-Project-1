@@ -5,7 +5,7 @@ const FeatureBox = ({ title, dsc, imgUrl }) => {
                 <h4>{title}</h4>
                 <p className="m-0">{dsc}</p>
             </li>
-            <li className="bg-light p-4">
+            <li className="bg-light rounded-3 p-4">
                 <span className="bg-light">
                     <img src={imgUrl} alt="icon" />
                 </span>
