@@ -32,7 +32,7 @@ const NewCollection = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-6 order-lg-1 order-2">
-                        <div className="product-details ms-82 ms-sm-5 m-0">
+                        <div className="product-details py-5 ms-sm-5 ps-sm-5 m-0">
                             <Description subTitle="new collection 2021" title="GG Marmont small leather matelassé shoulder bag" dsc="Lorem Ipsum is simply industry fashion dummy text of printing and typesetting  industry the Lorem bag Ipsum in has the been the industry's standard dummy text standard ever since the typesetti." />
                             <div className="d-xl-flex d-none gap-5 mb-4">
                                 <div>

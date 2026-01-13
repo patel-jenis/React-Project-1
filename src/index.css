@@ -49,7 +49,7 @@ a {
 }
 
 .main-banner {
-    padding-top: 86px;
+    padding-top: 26px;
     height: 100vh;
 }
 
@@ -290,10 +290,6 @@ header {
     text-transform: capitalize;
 }
 
-.ms-82 {
-    padding: 45px 0;
-}
-
 .collection-item li {
     font-size: 16px;
     text-transform: uppercase;
@@ -308,4 +304,244 @@ header {
 .collection-img img {
     max-width: 100%;
     height: 100%;
+}
+
+.latest-product {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.product-info span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.product-info p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.product-info h5 {
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-info h5 span:first-child {
+    font-size: 20px !important;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.product-info h5 span:last-child {
+    font-size: 18px !important;
+    color: #999 !important;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.bag-1 {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.bag-2 {
+    width: 100%;
+    border-radius: 8px;
+    display: none;
+}
+
+.bag-img:hover .bag-2 {
+    display: block;
+}
+
+.bag-img:hover .bag-1 {
+    display: none;
+}
+
+.bag-img {
+    width: 100%;
+    position: relative;
+}
+
+.bag-img:hover::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    background-color: #e7e7e736;
+}
+
+.newbedge {
+    font-size: 12px;
+    font-weight: 400;
+    top: 20px;
+    right: -7px;
+    padding: 3px 12px;
+}
+
+.newbedge.yellow {
+    right: -20px;
+    top: 45px;
+    background-color: #bd7c51;
+    color: white;
+    padding: 5px 14px;
+}
+
+.sub-info,
+.main-info {
+    transition: all 0.3s linear;
+}
+
+.sub-info:hover,
+.main-info:hover {
+    color: #bd7c51;
+    cursor: pointer;
+}
+
+.testi-box {    
+    box-shadow: 0 0 10px 0 rgba(4, 4, 4, .1);
+    background: #fff;
+    border-radius: 10px;
+}
+
+.testimonial {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+}
+
+.sec-heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.profile-img {
+    border: 2px solid #bd7c51;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.testi-details p {
+    color: #777;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.testi-details h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #bd7c51;
+}
+
+.testi-details h5 {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #777;
+    font-weight: normal;
+    margin: 0;
+}
+
+.quote-img {
+    width: 100x;
+    height: 100px;
+    top: 25px;
+    right: 10px;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+footer {
+    background-color: #242424;
+}
+
+.upper-footer h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+}
+
+.upper-footer ul li span i {
+    font-size: 20px;
+    color: #bd7c51;
+}
+
+.upper-footer ul li p {
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #a7a7a7;
+}
+
+.clr {
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #a7a7a7;
+}
+
+.footer-menus a {
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #a7a7a7;
+}
+
+.input-group input, .input-group button{
+    border: none;
+    border-radius: 10px;
+    background: #393939;
+    padding: 10px 14px;
+}
+
+.input-group button {
+    color: #bd7c51;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-control:focus {
+    color: rgb(152, 152, 152);
+    background-color: #393939;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #393939;
+    border: none;
+}
+
+.main-border {
+    border-top: 1px solid #3a3a3a;
+}
+
+.footer-text, .footer-text a {
+    color: #bd7c51;
+}
+
+.footer-icon a {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #777;
+    font-size: 18px;
+    transition: all 0.3s linear;
+}
+
+.footer-icon a:hover {
+    color: #fff;
+    background-color: #bd7c51;
 }
