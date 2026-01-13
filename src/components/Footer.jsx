@@ -1,6 +1,6 @@
 import ContactDetails from "./ContactDetails"
 import FooterDetails from "./FooterDetails"
-import FooterIcon from "./footerIcon"
+import FooterIcon from "./FooterIcon"
 
 const Footer = () => {
     let ele = [
